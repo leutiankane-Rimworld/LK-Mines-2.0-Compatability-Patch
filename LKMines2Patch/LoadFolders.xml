@@ -11,7 +11,8 @@
 		<li IfModActive="bambaryla.bor">1.6/Mods/BeyondOurReach</li>
 		<li IfModActive="LeutianKane.Resources">1.6/Mods/LKResource</li>
 		<li IfModActive="lee.theforce.lightsaber">1.6/Mods/Lightsabers</li>
-		<li IfModActiveAll="rimsenal.federation,Neronix17.OuterRim.Core,Grimworld.Core,bambaryla.bore,Leutiankane.Resources,lee.theforce.lightsaber">1.6/Mods/AllMods</li>
+		<li IfModActiveAll="rimsenal.federation,Neronix17.OuterRim.Core,Grimworld.Core,bambaryla.bor,Leutiankane.Resources,lee.theforce.lightsaber">1.6/Mods/AllMods</li>
 
 	</v1.6>
+
 </loadFolders>

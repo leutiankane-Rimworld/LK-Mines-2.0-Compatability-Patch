@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>	
+   	
+  <!-- Star Wars Outer Rim Core -->		
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="OuterRim_Tibanna"]</xpath>
+      <value>
+        <li Class="MinesAutomatedExtension.MineableSettings">
+    <researchPrerequisites>
+        <li>MinesAutomated_ResearchProjectDef_minecraft</li>
+    </researchPrerequisites>
+    <workOffset>200</workOffset>
+    <mineableYield>10</mineableYield>
+</li>
+      </value>
+  </Operation>		
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="OuterRim_ComponentHypertech"]</xpath>
+      <value>
+        <li Class="MinesAutomatedExtension.MineableSettings">
+    <researchPrerequisites>
+        <li>MinesAutomated_ResearchProjectDef_minecraft</li>
+    </researchPrerequisites>
+    <workOffset>200</workOffset>
+    <mineableYield>10</mineableYield>
+</li>
+      </value>
+  </Operation>		
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="OuterRim_Beskar"]</xpath>
+      <value>
+        <li Class="MinesAutomatedExtension.MineableSettings">
+    <researchPrerequisites>
+        <li>MinesAutomated_ResearchProjectDef_minecraft</li>
+    </researchPrerequisites>
+    <workOffset>200</workOffset>
+    <mineableYield>10</mineableYield>
+</li>
+      </value>
+  </Operation>			
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="OuterRim_Duracrete"]</xpath>
+      <value>
+        <li Class="MinesAutomatedExtension.MineableSettings">
+    <researchPrerequisites>
+        <li>MinesAutomated_ResearchProjectDef_minecraft</li>
+    </researchPrerequisites>
+    <workOffset>200</workOffset>
+    <mineableYield>10</mineableYield>
+</li>
+      </value>
+  </Operation>	
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="OuterRim_Durafiber"]</xpath>
+      <value>
+        <li Class="MinesAutomatedExtension.MineableSettings">
+    <researchPrerequisites>
+        <li>MinesAutomated_ResearchProjectDef_minecraft</li>
+    </researchPrerequisites>
+    <workOffset>200</workOffset>
+    <mineableYield>10</mineableYield>
+</li>
+      </value>
+  </Operation>		
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="OuterRim_Durasteel"]</xpath>
+      <value>
+        <li Class="MinesAutomatedExtension.MineableSettings">
+    <researchPrerequisites>
+        <li>MinesAutomated_ResearchProjectDef_minecraft</li>
+    </researchPrerequisites>
+    <workOffset>200</workOffset>
+    <mineableYield>10</mineableYield>
+</li>
+      </value>
+  </Operation>		
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="OuterRim_Permacrete"]</xpath>
+      <value>
+        <li Class="MinesAutomatedExtension.MineableSettings">
+    <researchPrerequisites>
+        <li>MinesAutomated_ResearchProjectDef_minecraft</li>
+    </researchPrerequisites>
+    <workOffset>200</workOffset>
+    <mineableYield>10</mineableYield>
+</li>
+      </value>
+  </Operation>				
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="OuterRim_Plastcrete"]</xpath>
+      <value>
+        <li Class="MinesAutomatedExtension.MineableSettings">
+    <researchPrerequisites>
+        <li>MinesAutomated_ResearchProjectDef_minecraft</li>
+    </researchPrerequisites>
+    <workOffset>200</workOffset>
+    <mineableYield>10</mineableYield>
+</li>
+      </value>
+  </Operation>		
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="OuterRim_PureBeskar"]</xpath>
+      <value>
+        <li Class="MinesAutomatedExtension.MineableSettings">
+    <researchPrerequisites>
+        <li>MinesAutomated_ResearchProjectDef_minecraft</li>
+    </researchPrerequisites>
+    <workOffset>200</workOffset>
+    <mineableYield>10</mineableYield>
+</li>
+      </value>
+  </Operation>			
+  
+
+</Patch>

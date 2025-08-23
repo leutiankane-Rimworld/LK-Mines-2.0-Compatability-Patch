@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	
+  <!-- Grimworld 40k -->		
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="GW_Rockcrete"]</xpath>
+      <value>
+        <li Class="MinesAutomatedExtension.MineableSettings">
+    <researchPrerequisites>
+        <li>MinesAutomated_ResearchProjectDef_minecraft</li>
+    </researchPrerequisites>
+    <workOffset>200</workOffset>
+    <mineableYield>10</mineableYield>
+</li>
+      </value>
+  </Operation>	
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="GW_ComponentRelic"]</xpath>
+      <value>
+        <li Class="MinesAutomatedExtension.MineableSettings">
+    <researchPrerequisites>
+        <li>MinesAutomated_ResearchProjectDef_minecraft</li>
+    </researchPrerequisites>
+    <workOffset>200</workOffset>
+    <mineableYield>10</mineableYield>
+</li>
+      </value>
+  </Operation>	
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="GW_Plascrete"]</xpath>
+      <value>
+        <li Class="MinesAutomatedExtension.MineableSettings">
+    <researchPrerequisites>
+        <li>MinesAutomated_ResearchProjectDef_minecraft</li>
+    </researchPrerequisites>
+    <workOffset>200</workOffset>
+    <mineableYield>10</mineableYield>
+</li>
+      </value>
+  </Operation>	
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="HP_Adamantium"]</xpath>
+      <value>
+        <li Class="MinesAutomatedExtension.MineableSettings">
+    <researchPrerequisites>
+        <li>MinesAutomated_ResearchProjectDef_minecraft</li>
+    </researchPrerequisites>
+    <workOffset>200</workOffset>
+    <mineableYield>10</mineableYield>
+</li>
+      </value>
+  </Operation>	
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="HP_Auramite"]</xpath>
+      <value>
+        <li Class="MinesAutomatedExtension.MineableSettings">
+    <researchPrerequisites>
+        <li>MinesAutomated_ResearchProjectDef_minecraft</li>
+    </researchPrerequisites>
+    <workOffset>200</workOffset>
+    <mineableYield>10</mineableYield>
+</li>
+      </value>
+  </Operation>	
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="HP_Ceramite"]</xpath>
+      <value>
+        <li Class="MinesAutomatedExtension.MineableSettings">
+    <researchPrerequisites>
+        <li>MinesAutomated_ResearchProjectDef_minecraft</li>
+    </researchPrerequisites>
+    <workOffset>200</workOffset>
+    <mineableYield>10</mineableYield>
+</li>
+      </value>
+  </Operation>	
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="GW_STC_Fragment"]</xpath>
+      <value>
+        <li Class="MinesAutomatedExtension.MineableSettings">
+    <researchPrerequisites>
+        <li>MinesAutomated_ResearchProjectDef_minecraft</li>
+    </researchPrerequisites>
+    <workOffset>200</workOffset>
+    <mineableYield>10</mineableYield>
+</li>
+      </value>
+  </Operation>	
+</Patch>

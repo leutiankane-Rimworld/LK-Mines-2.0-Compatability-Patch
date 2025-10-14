@@ -6,3 +6,6 @@ Mods Supported
 --Outer Rim Core
 --Star wars : The Force : Lightsabers
 --Grimworld 40k: Core Imperialis
+
+
+Preview image by ChipsGray

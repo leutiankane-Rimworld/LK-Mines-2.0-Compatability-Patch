@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+ <!-- LK Mod Resources -->
+<Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="LKForerunner_Metal"]</xpath>
+      <value>
+        <li Class="MinesAutomatedExtension.MineableSettings">
+    <researchPrerequisites>
+        <li MayRequire="LeutianKane.Resources">LKUberMetals</li>
+    </researchPrerequisites>
+    <workOffset>200</workOffset>
+    <mineableYield>10</mineableYield>
+</li>
+      </value>
+  </Operation>	
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="LKUberSteel"]</xpath>
+      <value>
+        <li Class="MinesAutomatedExtension.MineableSettings">
+    <researchPrerequisites>
+        <li MayRequire="LeutianKane.Resources">LKUberMetals</li>
+    </researchPrerequisites>
+    <workOffset>200</workOffset>
+    <mineableYield>10</mineableYield>
+</li>
+      </value>
+  </Operation>		
+   
+
+</Patch>

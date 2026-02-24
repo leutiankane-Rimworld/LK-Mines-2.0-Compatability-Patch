@@ -8,4 +8,7 @@ Mods Supported
 --Grimworld 40k: Core Imperialis
 
 
+
+********THIS VERSION USES PATCH OPERATION FINDMOD INSTEAD OF LOADFOLDERS****
+
 Preview image by ChipsGray

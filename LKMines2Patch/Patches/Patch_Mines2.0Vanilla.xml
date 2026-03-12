@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="MedicineIndustrial"]</xpath>
+      <value>
+        <li Class="MinesAutomatedExtension.MineableSettings">
+    <researchPrerequisites>
+        <li>MinesAutomated_ResearchProjectDef_minecraft</li>
+    </researchPrerequisites>
+    <workOffset>200</workOffset>
+    <mineableYield>10</mineableYield>
+</li>
+      </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="MedicineHerbal"]</xpath>
+      <value>
+        <li Class="MinesAutomatedExtension.MineableSettings">
+    <researchPrerequisites>
+        <li>MinesAutomated_ResearchProjectDef_minecraft</li>
+    </researchPrerequisites>
+    <workOffset>200</workOffset>
+    <mineableYield>10</mineableYield>
+</li>
+      </value>
+  </Operation>		
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="ComponentSpacer"]</xpath>
+      <value>
+        <li Class="MinesAutomatedExtension.MineableSettings">
+    <researchPrerequisites>
+        <li>MinesAutomated_ResearchProjectDef_minecraft</li>
+    </researchPrerequisites>
+    <workOffset>200</workOffset>
+    <mineableYield>10</mineableYield>
+</li>
+      </value>
+  </Operation>	
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="Neutroamine"]</xpath>
+      <value>
+        <li Class="MinesAutomatedExtension.MineableSettings">
+    <researchPrerequisites>
+        <li>MinesAutomated_ResearchProjectDef_minecraft</li>
+    </researchPrerequisites>
+    <workOffset>200</workOffset>
+    <mineableYield>10</mineableYield>
+</li>
+      </value>
+  </Operation>	
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="Chemfuel"]</xpath>
+      <value>
+        <li Class="MinesAutomatedExtension.MineableSettings">
+    <researchPrerequisites>
+        <li>MinesAutomated_ResearchProjectDef_minecraft</li>
+    </researchPrerequisites>
+    <workOffset>200</workOffset>
+    <mineableYield>10</mineableYield>
+</li>
+      </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="WoodLog"]</xpath>
+      <value>
+        <li Class="MinesAutomatedExtension.MineableSettings">
+    <researchPrerequisites>
+        <li>MinesAutomated_ResearchProjectDef_minecraft</li>
+    </researchPrerequisites>
+    <workOffset>200</workOffset>
+    <mineableYield>10</mineableYield>
+</li>
+      </value>
+  </Operation>				
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="Cloth"]</xpath>
+      <value>
+        <li Class="MinesAutomatedExtension.MineableSettings">
+    <researchPrerequisites>
+        <li>MinesAutomated_ResearchProjectDef_minecraft</li>
+    </researchPrerequisites>
+    <workOffset>200</workOffset>
+    <mineableYield>10</mineableYield>
+</li>
+      </value>
+  </Operation>		
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="Synthread"]</xpath>
+      <value>
+        <li Class="MinesAutomatedExtension.MineableSettings">
+    <researchPrerequisites>
+        <li>MinesAutomated_ResearchProjectDef_minecraft</li>
+    </researchPrerequisites>
+    <workOffset>200</workOffset>
+    <mineableYield>10</mineableYield>
+</li>
+      </value>
+  </Operation>	
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="DevilstrandCloth"]</xpath>
+      <value>
+        <li Class="MinesAutomatedExtension.MineableSettings">
+    <researchPrerequisites>
+        <li>MinesAutomated_ResearchProjectDef_minecraft</li>
+    </researchPrerequisites>
+    <workOffset>200</workOffset>
+    <mineableYield>10</mineableYield>
+</li>
+      </value>
+  </Operation>		
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="Hyperweave"]</xpath>
+      <value>
+        <li Class="MinesAutomatedExtension.MineableSettings">
+    <researchPrerequisites>
+        <li>MinesAutomated_ResearchProjectDef_minecraft</li>
+    </researchPrerequisites>
+    <workOffset>200</workOffset>
+    <mineableYield>10</mineableYield>
+</li>
+      </value>
+  </Operation>	
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="AIPersonaCore"]</xpath>
+      <value>
+        <li Class="MinesAutomatedExtension.MineableSettings">
+    <researchPrerequisites>
+        <li>MinesAutomated_ResearchProjectDef_minecraft</li>
+    </researchPrerequisites>
+    <workOffset>200</workOffset>
+    <mineableYield>10</mineableYield>
+</li>
+      </value>
+  </Operation>	
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="MechSerumHealer"]</xpath>
+      <value>
+        <li Class="MinesAutomatedExtension.MineableSettings">
+    <researchPrerequisites>
+        <li>MinesAutomated_ResearchProjectDef_minecraft</li>
+    </researchPrerequisites>
+    <workOffset>200</workOffset>
+    <mineableYield>10</mineableYield>
+</li>
+      </value>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>Odyssey</li>
+    </mods>				
+  <match Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="BlocksVacstone"]</xpath>
+      <value>
+        <li Class="MinesAutomatedExtension.MineableSettings">
+    <researchPrerequisites>
+        <li>MinesAutomated_ResearchProjectDef_minecraft</li>
+    </researchPrerequisites>
+    <workOffset>200</workOffset>
+    <mineableYield>10</mineableYield>
+</li>
+      </value>
+      </match>  
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>Odyssey</li>
+    </mods>					
+  <match Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="Obsidian"]</xpath>
+      <value>
+        <li Class="MinesAutomatedExtension.MineableSettings">
+    <researchPrerequisites>
+        <li>MinesAutomated_ResearchProjectDef_minecraft</li>
+    </researchPrerequisites>
+    <workOffset>200</workOffset>
+    <mineableYield>10</mineableYield>
+</li>
+      </value>
+      </match>  
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>Odyssey</li>
+    </mods>			
+  <match Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="Gravcore"]</xpath>
+      <value>
+        <li Class="MinesAutomatedExtension.MineableSettings">
+    <researchPrerequisites>
+        <li>MinesAutomated_ResearchProjectDef_minecraft</li>
+    </researchPrerequisites>
+    <workOffset>200</workOffset>
+    <mineableYield>10</mineableYield>
+</li>
+      </value>
+        </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>Odyssey</li>
+    </mods>			
+  <match Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="GravlitePanel"]</xpath>
+      <value>
+        <li Class="MinesAutomatedExtension.MineableSettings">
+    <researchPrerequisites>
+        <li>MinesAutomated_ResearchProjectDef_minecraft</li>
+    </researchPrerequisites>
+    <workOffset>200</workOffset>
+    <mineableYield>10</mineableYield>
+</li>
+      </value>
+        </match>
+  </Operation>	
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>Odyssey</li>
+    </mods>			
+  <match Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="ShuttleEngine"]</xpath>
+      <value>
+        <li Class="MinesAutomatedExtension.MineableSettings">
+    <researchPrerequisites>
+        <li>MinesAutomated_ResearchProjectDef_minecraft</li>
+    </researchPrerequisites>
+    <workOffset>200</workOffset>
+    <mineableYield>10</mineableYield>
+</li>
+      </value>
+        </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>Anomaly</li>
+    </mods>				
+  <match Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="Bioferrite"]</xpath>
+      <value>
+        <li Class="MinesAutomatedExtension.MineableSettings">
+    <researchPrerequisites>
+        <li>MinesAutomated_ResearchProjectDef_minecraft</li>
+    </researchPrerequisites>
+    <workOffset>200</workOffset>
+    <mineableYield>10</mineableYield>
+</li>
+      </value>
+        </match>
+  </Operation>	
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>Anomaly</li>
+    </mods>				
+  <match Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="Shard"]</xpath>
+      <value>
+        <li Class="MinesAutomatedExtension.MineableSettings">
+    <researchPrerequisites>
+        <li>MinesAutomated_ResearchProjectDef_minecraft</li>
+    </researchPrerequisites>
+    <workOffset>200</workOffset>
+    <mineableYield>10</mineableYield>
+</li>
+      </value>
+        </match>
+  </Operation>											
+</Patch>

@@ -12,3 +12,5 @@ Mods Supported
 ********THIS VERSION USES PATCH OPERATION FINDMOD INSTEAD OF LOADFOLDERS****
 
 Preview image by ChipsGray
+
+[Patch Notes](https://steamcommunity.com/sharedfiles/filedetails/changelog/3548064530)

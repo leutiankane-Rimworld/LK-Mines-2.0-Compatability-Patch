@@ -9,3 +9,4 @@ Mods Supported
 
 
 Preview image by ChipsGray
+[Patch Notes](https://steamcommunity.com/sharedfiles/filedetails/changelog/3548064530)

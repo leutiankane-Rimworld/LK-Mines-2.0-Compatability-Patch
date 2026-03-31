@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+ 	
+  <!--Dead Man's Switch-->
+<Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>Cinders of the Embergarden</li>
+    </mods>			
+  <match Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="Cinder_AmorphousPolymer"]</xpath>
+      <value>
+        <li Class="MinesAutomatedExtension.MineableSettings">
+    <researchPrerequisites>
+        <li>ShipReactor</li>
+    </researchPrerequisites>
+    <workOffset>200</workOffset>
+    <mineableYield>10</mineableYield>
+</li>
+      </value>
+      </match>  
+  </Operation>	
+ 
+ <Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>Cinders of the Embergarden</li>
+    </mods>			
+  <match Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="Cinder_BurntStrangeMeat"]</xpath>
+      <value>
+        <li Class="MinesAutomatedExtension.MineableSettings">
+    <researchPrerequisites>
+        <li>ShipReactor</li>
+    </researchPrerequisites>
+    <workOffset>200</workOffset>
+    <mineableYield>10</mineableYield>
+</li>
+      </value>
+      </match>  
+  </Operation>	 
+
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>Cinders of the Embergarden</li>
+    </mods>			
+  <match Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="Cinder_ErosionAgent"]</xpath>
+      <value>
+        <li Class="MinesAutomatedExtension.MineableSettings">
+    <researchPrerequisites>
+        <li>ShipReactor</li>
+    </researchPrerequisites>
+    <workOffset>200</workOffset>
+    <mineableYield>10</mineableYield>
+</li>
+      </value>
+      </match>  
+  </Operation>	 
+
+ <Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>Cinders of the Embergarden</li>
+    </mods>			
+  <match Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="Cinder_RegeneratedEnhancedSerum"]</xpath>
+      <value>
+        <li Class="MinesAutomatedExtension.MineableSettings">
+    <researchPrerequisites>
+        <li>ShipReactor</li>
+    </researchPrerequisites>
+    <workOffset>200</workOffset>
+    <mineableYield>10</mineableYield>
+</li>
+      </value>
+      </match>  
+  </Operation>	  
+ <Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>Cinders of the Embergarden</li>
+    </mods>			
+  <match Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="Cinder_EmptyAgentBottle"]</xpath>
+      <value>
+        <li Class="MinesAutomatedExtension.MineableSettings">
+    <researchPrerequisites>
+        <li>ShipReactor</li>
+    </researchPrerequisites>
+    <workOffset>200</workOffset>
+    <mineableYield>10</mineableYield>
+</li>
+      </value>
+      </match>  
+  </Operation>	   
+
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>Cinders of the Embergarden</li>
+    </mods>			
+  <match Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="Cinder_ErodedMechComponent"]</xpath>
+      <value>
+        <li Class="MinesAutomatedExtension.MineableSettings">
+    <researchPrerequisites>
+        <li>ShipReactor</li>
+    </researchPrerequisites>
+    <workOffset>200</workOffset>
+    <mineableYield>10</mineableYield>
+</li>
+      </value>
+      </match>  
+  </Operation>	
+<Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>Cinders of the Embergarden</li>
+    </mods>			
+  <match Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="Cinder_AmorphousNeuralSpine"]</xpath>
+      <value>
+        <li Class="MinesAutomatedExtension.MineableSettings">
+    <researchPrerequisites>
+        <li>ShipReactor</li>
+    </researchPrerequisites>
+    <workOffset>200</workOffset>
+    <mineableYield>10</mineableYield>
+</li>
+      </value>
+      </match>  
+  </Operation>
+
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>Cinders of the Embergarden</li>
+    </mods>			
+  <match Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="Cinder_ExtraArmour"]</xpath>
+      <value>
+        <li Class="MinesAutomatedExtension.MineableSettings">
+    <researchPrerequisites>
+        <li>ShipReactor</li>
+    </researchPrerequisites>
+    <workOffset>200</workOffset>
+    <mineableYield>10</mineableYield>
+</li>
+      </value>
+      </match>  
+  </Operation>
+
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>Cinders of the Embergarden</li>
+    </mods>			
+  <match Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="Cinder_HeavyExtraArmour"]</xpath>
+      <value>
+        <li Class="MinesAutomatedExtension.MineableSettings">
+    <researchPrerequisites>
+        <li>ShipReactor</li>
+    </researchPrerequisites>
+    <workOffset>200</workOffset>
+    <mineableYield>10</mineableYield>
+</li>
+      </value>
+      </match>  
+  </Operation>
+
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>Cinders of the Embergarden</li>
+    </mods>			
+  <match Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="Cinder_ChunkSlag"]</xpath>
+      <value>
+        <li Class="MinesAutomatedExtension.MineableSettings">
+    <researchPrerequisites>
+        <li>ShipReactor</li>
+    </researchPrerequisites>
+    <workOffset>200</workOffset>
+    <mineableYield>10</mineableYield>
+</li>
+      </value>
+      </match>  
+  </Operation>
+
+  
+
+</Patch>

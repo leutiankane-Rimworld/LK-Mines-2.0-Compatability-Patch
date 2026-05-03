@@ -37,5 +37,8 @@
     </loadAfter>
 	<incompatibleWith>
   <li>LeutianKane.Mines2VanEx</li>
+<li>LeutianKane.Mines2patchOuterRim</li>
+  <li>LeutianKane.Mines2patchGrimworld </li>
+  <li>LeutianKane.Mines2patchBoR</li>	
 </incompatibleWith>
 </ModMetaData>

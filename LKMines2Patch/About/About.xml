@@ -5,7 +5,7 @@
     <supportedVersions>
         <li>1.6</li>
     </supportedVersions>
-    <modVersion>1.0.0.2</modVersion>
+    <modVersion>1.0.0.3</modVersion>
     <packageId>LeutianKane.Mines2patch</packageId>
     <description>Patches that will add various mod and vanilla resources to Mines 2.0 Bills IF these mods are installed.</description>
     <modDependencies>
@@ -35,4 +35,7 @@
         <li>Grimworld.Core</li>
         <li>Para0234.SNSAmbitionCosmic</li>
     </loadAfter>
+	<incompatibleWith>
+  <li>LeutianKane.Mines2VanEx</li>
+</incompatibleWith>
 </ModMetaData>
